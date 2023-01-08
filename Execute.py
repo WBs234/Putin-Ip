@@ -32,7 +32,7 @@ def script():
     time.sleep(1)
     print(vermelho+"Bem vindo ao script de derrubar Ip!")
     print("\n")
-    ip=input("Digite o endereço de ip que deseja atacar: "+azul)
+    ip=input("Digite o endereço de ip: "+azul)
     time.sleep(1)
     print(vermelho+"Para parar o ataque, aperte"+azul+" ctrl+d")
     print("Ataque iniciado...")
