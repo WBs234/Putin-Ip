@@ -16,7 +16,7 @@ def script():
     print("\n")
     print(vermelho+"Criado por "+azul+"Wolf404")
     time.sleep(1)
-    print(vermelho+"Bem vindo ao script de derrubar Ip!)
+    print(vermelho+"Bem vindo ao script de derrubar Ip!")
     print("\n")
     ip=input("Digite o endereço de ip que deseja atacar: "+azul)
     time.sleep(1)
