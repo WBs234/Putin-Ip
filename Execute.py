@@ -40,7 +40,7 @@ def script():
     print(vermelho+"Bem vindo ao script de derrubar Ip!")
     print("\n")
     ip = input("Digite o endereço de ip: "+azul)
-    port = int(input(“Digite a porta: “+azul))
+    port = int(input("Digite a porta: "+azul))
     time.sleep(1)
     print(vermelho+"Para parar o ataque, aperte"+azul+" ctrl+c")
     print("Ataque iniciado...")
