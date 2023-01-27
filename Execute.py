@@ -5,7 +5,7 @@ import random
 
 sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 bytes = random._urandom(10000)
-timeout = time.time
+timeout = time.time()
 
 branco= '\033[37m'
 azul= '\033[34m'
